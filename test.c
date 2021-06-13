@@ -9,7 +9,7 @@ int main()
 {
     uint8_t buffer[6] = {0};
 
-    /* Read info from sht20 */
+    /* Read info from mlx90614 */
     int fd = open("/dev/mlx90614", O_RDWR);
     if (fd < 0) {
     	printf("Error: cannot open file.\n");
