@@ -95,7 +95,7 @@ static ssize_t mlx90614_i2c_read(struct file *filp, char __user *buf, size_t cou
 
     mutex_unlock(&mlx90614_clients_lock);
 
-    return 0;
+    return 6;
 }
 
 struct file_operations mlx90614_i2c_fops = {
