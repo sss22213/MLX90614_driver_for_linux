@@ -1,4 +1,4 @@
-# Linux-driver-for-amg8833
+# Linux-driver-for-mlx90614
 
 ## Test Environment:
  - Board: Raspberry pi 4b
